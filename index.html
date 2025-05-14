@@ -12,9 +12,16 @@
 </head>
 <body>
 
+  <nav id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="pagina-actual" href="#">CLASES</a>
+    <a href="pages/after.html">AFTERS</a>
+    <a href="pages/market.html">MARKET-TECH</a>
+    <a href="#">UTIL</a>
+  </nav>
+  
   <header>
-    <h1>Comisión 25019</h1>
-    <h2>Front End JS</h2>
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
   </header>
 
   <main>
@@ -22,19 +29,43 @@
       <div class="flex-container">
         <div class="clase">
           <p class="titulo">
-            <a href="pages/clase1.html" >Clase 1</a>
+            <a href="pages/clase6.html">Clase 6</a>
           </p>
-          <p class="descripcion">Etiquetas <br> 
-            (header/nav/main/section/footer) <br>
-            (strong, em, s) <br>
-            README.md
+          <p class="descripcion">
+            Modelo de cajas <br>
+            Hoy utilizamos la propiedad CSS 3xF3C3 <br>
+            También aprendemos la tecnología 3xF3C3 <br>
+          </p>
+          <p class="descripcion">
+            <a href="#">Código Fuente en GitHub</a>
+          </p>
+          <p class="descripcion">
+            <a href="#">Link al sitio web (GitHub Pages)</a>
           </p>
         </div>
         <div class="clase">
           <p class="titulo">
-            <a href="pages/clase2.html">Clase 2</a>
+            <a href="pages/clase5.html">Clase 5</a>
           </p>
-          <p class="descripcion">Listas, Rutas, Multimedia</p>
+          <p class="descripcion">
+            Trabajamos en el proyecto Market-Tech agregando <br>
+            colores, tipografías de google fonts, iconos, aplicamos un diseño adaptable a distintos dispositivos <br>
+          </p>
+          <p class="descripcion">
+            <a href="https://github.com/nicolasrivera23/clase8-5">Código Fuente en GitHub</a>
+          </p>
+          <p class="descripcion">
+            <a href="https://nicolasrivera23.github.io/clase8-5/">Link al sitio web (GitHub Pages)</a>
+          </p>
+        </div>
+        <div class="clase">
+          <p class="titulo">
+            <a href="pages/clase4.html">Clase 4</a>
+          </p>
+          <p class="descripcion">
+            <a href="pages/especificidad.html">Especificidad</a> <br><br>
+            <a href="pages/unidades.html">Unidades de Medida</a>
+          </p>
         </div>
         <div class="clase">
           <p class="titulo">
@@ -47,11 +78,18 @@
         </div>
         <div class="clase">
           <p class="titulo">
-            <a href="pages/clase4.html">Clase 4</a>
+            <a href="pages/clase2.html">Clase 2</a>
           </p>
-          <p class="descripcion">
-            <a href="pages/especificidad.html">Especificidad</a> <br><br>
-            <a href="pages/unidades.html">Unidades de Medida</a>
+          <p class="descripcion">Listas, Rutas, Multimedia</p>
+        </div>
+        <div class="clase">
+          <p class="titulo">
+            <a href="pages/clase1.html" >Clase 1</a>
+          </p>
+          <p class="descripcion">Etiquetas <br>
+            (header/nav/main/section/footer) <br>
+            (strong, em, s) <br>
+            README.md
           </p>
         </div>
       </div>
@@ -91,5 +129,14 @@
     </div>
   </footer>
 
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+  
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>  
 </body>
 </html>
