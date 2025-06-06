@@ -1,3 +1,4 @@
+console.log("********* Tipos de datos *********");
 /*Tipos de datos*/
 
 /*Variables numéricas*/
@@ -42,3 +43,4 @@ let suma = stringConvertidaADecimal + 3;
 console.log("Suma : " + suma);
 
 
+console.log("********* Tipos de datos *********");

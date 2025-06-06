@@ -23,13 +23,10 @@ let nroDecremento = 5;
 console.log("PreDecremento = ".concat(--nroDecremento));
 console.log("PostDecremento = ".concat(nroDecremento--));
 
-
 /*
 let nroIncremento = 5;
 console.log("PreIncremento = ".concat(++nroIncremento));
 console.log("PostIncremento = ".concat(nroIncremento++));
 */
-
-
 
 console.log("*********Operadores Aritméticos*********");
