@@ -42,7 +42,7 @@ h2 {
 }
 
 .titulo_principal {
-  background-color: darkorange;
+  background-color: black;
   color: #C70039;
   font-family: Sansation, Verdana, Tahoma, sans-serif;
   font-size: 3vw;
@@ -102,11 +102,21 @@ h2 {
 }
 
 header {
-  color:  #ff8c00;
-  background-color: #DAF7A6;
+  color:  azure;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#pagina-actual {
+  text-decoration: underline;
+  cursor: default;
+}
+
+#pagina-actual:hover {
+  text-decoration: none;
+  cursor: default;
 }
 
 @media screen and (max-height: 450px) {

@@ -46,7 +46,7 @@
   background-color: lightgreen;
   font-size: 5vw;
   position: sticky;
-  bottom: 0;
+  top:0;
 }
 
 .contenedor-flex {
